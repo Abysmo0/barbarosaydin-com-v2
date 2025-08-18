@@ -1,0 +1,23 @@
+/* stylelint-disable at-rule-no-unknown */
+/* eslint-disable */
+/* VS Code CSS language service: unknown at-rules may still show; workspace settings are recommended */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-background {
+  background-image: linear-gradient(rgba(10, 34, 82, 0.7), rgba(10, 34, 82, 0.7)), url('/banner.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service-icon {
+  width: 2rem;
+  height: 2rem;
+}
