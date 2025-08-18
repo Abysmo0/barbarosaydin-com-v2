@@ -1,5 +1,4 @@
 // src/app/page.js
-
 import ServiceCard from '@/components/ServiceCard';
 import Link from 'next/link';
 
@@ -12,7 +11,6 @@ const IconSourcing = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" v
 export default function HomePage() {
   return (
     <div className="bg-gray-50">
-      {/* Hero Bölümü (YAPI DEĞİŞTİRİLDİ) */}
       <section className="relative w-full hero-background">
         <div className="container mx-auto px-6 py-32 md:py-48 text-center text-white">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
@@ -29,7 +27,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Hizmetler Bölümü */}
       <section id="hizmetlerim" className="bg-white py-20">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
@@ -45,7 +42,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CALL TO ACTION BÖLÜMÜ */}
       <section className="bg-fenerbahce-navy">
           <div className="container mx-auto px-6 py-20 text-center">
               <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">
@@ -55,9 +51,9 @@ export default function HomePage() {
                   Hedeflerinizi konuşmak, projelerinizi değerlendirmek ve yol haritasını birlikte oluşturmak için bir görüşme planlayalım.
               </p>
               <div className="mt-8">
-          <Link href="/iletisim" className="inline-block bg-white text-fenerbahce-navy font-bold text-lg px-8 py-4 rounded-lg shadow-lg hover:bg-gray-100 transition-colors duration-300">
-            İletişime Geçin
-          </Link>
+                  <Link href="/iletisim" className="inline-block bg-white text-fenerbahce-navy font-bold text-lg px-8 py-4 rounded-lg shadow-lg hover:bg-gray-100 transition-colors duration-300">
+                      İletişime Geçin
+                  </Link>
               </div>
           </div>
       </section>
