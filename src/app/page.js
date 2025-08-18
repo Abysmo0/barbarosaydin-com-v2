@@ -1,5 +1,7 @@
 // src/app/page.js
+
 import ServiceCard from '@/components/ServiceCard';
+import Link from 'next/link';
 
 // İkonlarımız...
 const IconStrategy = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="service-icon"><path strokeLinecap="round" strokeLinejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" /><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" /></svg>;
@@ -20,9 +22,9 @@ export default function HomePage() {
             Uluslararası standartlarda, veriye dayalı ve inovatif çözümlerle yatırımcılar ve işletmeler için kalıcı değer yaratıyor, yenilikçi çözümler sunuyoruz.
           </p>
           <div className="mt-8">
-            <a href="/#hizmetlerim" className="inline-block bg-brand-blue text-white font-bold text-lg px-8 py-4 rounded-lg shadow-lg hover:opacity-90 transition-opacity duration-300">
+            <Link href="/#hizmetlerim" className="inline-block bg-brand-blue text-white font-bold text-lg px-8 py-4 rounded-lg shadow-lg hover:opacity-90 transition-opacity duration-300">
               Hizmet Almaya Başlayın
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -53,9 +55,9 @@ export default function HomePage() {
                   Hedeflerinizi konuşmak, projelerinizi değerlendirmek ve yol haritasını birlikte oluşturmak için bir görüşme planlayalım.
               </p>
               <div className="mt-8">
-                  <a href="/iletisim" className="inline-block bg-white text-fenerbahce-navy font-bold text-lg px-8 py-4 rounded-lg shadow-lg hover:bg-gray-100 transition-colors duration-300">
-                      İletişime Geçin
-                  </a>
+          <Link href="/iletisim" className="inline-block bg-white text-fenerbahce-navy font-bold text-lg px-8 py-4 rounded-lg shadow-lg hover:bg-gray-100 transition-colors duration-300">
+            İletişime Geçin
+          </Link>
               </div>
           </div>
       </section>

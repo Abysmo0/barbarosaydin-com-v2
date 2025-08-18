@@ -1,5 +1,6 @@
 "use client";
 import { useState } from 'react';
+import Link from 'next/link';
 // src/components/Header.js
 
 // ... "use client"; ve import { useState } from 'react'; satırlarının altına ...
@@ -12,21 +13,21 @@ export default function Header() {
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* Sol Taraf: Logo/İsim (Mobil için küçültüldü) */}
         <div className="text-center">
-          <a href="/" className="text-gray-800">
+          <Link href="/" className="text-gray-800">
             {/* Metin boyutları ekran boyutuna göre değişecek (text-lg md:text-xl) */}
             <span className="text-lg md:text-xl font-extrabold tracking-tight">BARBAROS AYDIN</span>
             <span className="block text-xs font-medium text-brand-blue">Gayrimenkul Strateji Danışmanı</span>
-          </a>
+          </Link>
         </div>
 
         {/* Masaüstü Menüsü (Sadece orta boy ve büyük ekranlarda görünür) */}
         <nav className="hidden md:flex">
           <ul className="flex space-x-6 items-center">
-            <li><a href="/" className="text-gray-600 hover:text-brand-blue">Başlangıç</a></li>
-            <li><a href="/hakkimda" className="text-gray-600 hover:text-brand-blue">Hakkımda</a></li>
-            <li><a href="/hizmetlerim" className="text-gray-600 hover:text-brand-blue">Hizmetlerim</a></li>
-            <li><a href="/yatirim-sihirbazi" className="text-gray-600 hover:text-brand-blue">Yatırım Sihirbazı</a></li>
-            <li><a href="/iletisim" className="text-gray-600 hover:text-brand-blue">İletişim</a></li>
+            <li><Link href="/" className="text-gray-600 hover:text-brand-blue">Başlangıç</Link></li>
+            <li><Link href="/hakkimda" className="text-gray-600 hover:text-brand-blue">Hakkımda</Link></li>
+            <li><Link href="/hizmetlerim" className="text-gray-600 hover:text-brand-blue">Hizmetlerim</Link></li>
+            <li><Link href="/yatirim-sihirbazi" className="text-gray-600 hover:text-brand-blue">Yatırım Sihirbazı</Link></li>
+            <li><Link href="/iletisim" className="text-gray-600 hover:text-brand-blue">İletişim</Link></li>
           </ul>
         </nav>
 
@@ -49,11 +50,11 @@ export default function Header() {
       {isMenuOpen && (
         <nav className="md:hidden bg-white border-t border-gray-200">
           <ul className="flex flex-col items-end">
-            <li><a href="/" className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Başlangıç</a></li>
-            <li><a href="/hakkimda" className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Hakkımda</a></li>
-            <li><a href="/hizmetlerim" className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Hizmetlerim</a></li>
-            <li><a href="/yatirim-sihirbazi" className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Yatırım Sihirbazı</a></li>
-            <li><a href="/iletisim" className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">İletişim</a></li>
+            <li><Link href="/" className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Başlangıç</Link></li>
+            <li><Link href="/hakkimda" className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Hakkımda</Link></li>
+            <li><Link href="/hizmetlerim" className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Hizmetlerim</Link></li>
+            <li><Link href="/yatirim-sihirbazi" className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Yatırım Sihirbazı</Link></li>
+            <li><Link href="/iletisim" className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">İletişim</Link></li>
           </ul>
         </nav>
       )}

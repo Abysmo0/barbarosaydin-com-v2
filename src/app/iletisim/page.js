@@ -1,5 +1,6 @@
 // src/app/iletisim/page.js
 "use client";
+import Image from 'next/image';
 
 import { useState } from 'react';
 
@@ -67,7 +68,14 @@ export default function ContactPage() {
               <div className="flex items-center">
                 <div className="flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-lg bg-gray-100 text-gray-600 group transition-colors">
                   {/* Calendly logosu güncellendi */}
-                  <img src="https://logos-world.net/wp-content/uploads/2021/06/Calendly-New-Logo.png" alt="Calendly Logo" className="w-68 h-51 grayscale group-hover:grayscale-0 transition-all duration-300" />
+                  <Image
+                    src="https://logos-world.net/wp-content/uploads/2021/06/Calendly-New-Logo.png"
+                    alt="Calendly Logo"
+                    width={272}
+                    height={204}
+                    className="w-68 h-51 grayscale group-hover:grayscale-0 transition-all duration-300"
+                    unoptimized
+                  />
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-bold text-gray-900">Toplantı Oluştur</h3>
