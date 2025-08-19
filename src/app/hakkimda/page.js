@@ -10,7 +10,7 @@ const IconAcademia = () => (
     alt="Academia"
     width={28}
     height={28}
-    className="w-7 h-7 transform scale-[1.12] object-contain transition duration-150 grayscale group-hover:grayscale-0"
+  className="w-7 h-7 transform md:scale-[1.12] object-contain transition duration-150 grayscale group-hover:grayscale-0"
     loading="lazy"
     decoding="async"
   />
@@ -20,7 +20,7 @@ const IconInstagram = () => <svg className="w-8 h-8" xmlns="http://www.w3.org/20
 
 export default function AboutPage() {
   return (
-  <section className="bg-white pt-20 pb-0 md:pb-8 lg:pb-12">
+  <section className="bg-white pt-20 pb-12 md:pb-8 lg:pb-12">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">Hakkımda</h1>
@@ -28,7 +28,7 @@ export default function AboutPage() {
         
   {/* Ana Grid Yapısı (3 Sütunlu) */}
   {/* scale-90 reduces everything inside by 10% (headings are excluded) */}
-  <div className="transform scale-90 origin-top grid grid-cols-1 md:grid-cols-3 gap-x-12">
+  <div className="transform md:scale-90 origin-top grid grid-cols-1 md:grid-cols-3 gap-x-12">
           
           {/* Sol Sütun */}
           <div className="md:col-span-1 flex flex-col items-center text-center">
