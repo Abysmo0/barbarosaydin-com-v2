@@ -25,7 +25,7 @@ export default function AboutPage() {
           <div className="md:col-span-1 flex flex-col items-center text-center">
             <div className="w-full max-w-xs mx-auto">
               <Image
-                src="/profil-foto.jpg"
+                src="/profil-foto.JPG"
                 alt="Barbaros Aydın - Danışman"
                 width={500}
                 height={500}
