@@ -7,6 +7,7 @@ import Link from 'next/link';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const closeMenu = () => setIsMenuOpen(false);
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
@@ -50,11 +51,11 @@ export default function Header() {
       {isMenuOpen && (
         <nav className="md:hidden bg-white border-t border-gray-200">
           <ul className="flex flex-col items-end">
-            <li><Link href="/" className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Başlangıç</Link></li>
-            <li><Link href="/hakkimda" className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Hakkımda</Link></li>
-            <li><Link href="/hizmetlerim" className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Hizmetlerim</Link></li>
-            <li><Link href="/yatirim-sihirbazi" className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Yatırım Sihirbazı</Link></li>
-            <li><Link href="/iletisim" className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">İletişim</Link></li>
+            <li><Link href="/" onClick={closeMenu} className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Başlangıç</Link></li>
+            <li><Link href="/hakkimda" onClick={closeMenu} className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Hakkımda</Link></li>
+            <li><Link href="/hizmetlerim" onClick={closeMenu} className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Hizmetlerim</Link></li>
+            <li><Link href="/yatirim-sihirbazi" onClick={closeMenu} className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">Yatırım Sihirbazı</Link></li>
+            <li><Link href="/iletisim" onClick={closeMenu} className="block py-3 w-full text-right pr-6 text-gray-700 hover:bg-gray-100">İletişim</Link></li>
           </ul>
         </nav>
       )}

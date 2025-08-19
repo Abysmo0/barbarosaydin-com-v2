@@ -20,7 +20,7 @@ const IconInstagram = () => <svg className="w-8 h-8" xmlns="http://www.w3.org/20
 
 export default function AboutPage() {
   return (
-    <section className="bg-white py-20">
+  <section className="bg-white pt-20 pb-0 md:pb-8 lg:pb-12">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">Hakkımda</h1>
