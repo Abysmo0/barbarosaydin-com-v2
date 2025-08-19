@@ -1,6 +1,8 @@
 // src/app/page.js
+'use client';
 import ServiceCard from '@/components/ServiceCard';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 // İkonlarımız...
 const IconStrategy = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="service-icon"><path strokeLinecap="round" strokeLinejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" /><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" /></svg>;
@@ -9,6 +11,24 @@ const IconRealEstate = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none"
 const IconSourcing = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="service-icon"><path strokeLinecap="round" strokeLinejoin="round" d="M15.75 15.75l-2.489-2.489m0 0a3.375 3.375 0 10-4.773-4.773 3.375 3.375 0 004.774 4.774zM21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>;
 
 export default function HomePage() {
+  const router = useRouter();
+
+  const onServiceGridClick = (e) => {
+    // Anchor delegation: hedef href /hizmetlerim#... ise intercept
+    const anchor = e.target.closest('a');
+    if (!anchor) return;
+    const href = anchor.getAttribute('href') || '';
+    if (href.startsWith('/hizmetlerim#')) {
+      e.preventDefault();
+      const hash = href.split('#')[1];
+      if (hash) {
+        try { sessionStorage.setItem('pendingServiceSection', hash); } catch (_) {}
+      }
+      // hash olmadan push => tarayıcı otomatik anchor scroll yapmaz
+      router.push('/hizmetlerim', { scroll: false });
+    }
+  };
+
   return (
     <div className="bg-gray-50">
       <section className="relative w-full hero-background">
@@ -17,7 +37,7 @@ export default function HomePage() {
             Strateji, Yatırım ve Geliştirme Danışmanlığı
           </h1>
           <p className="mt-6 text-lg md:text-xl text-gray-200">
-            Uluslararası standartlarda, veriye dayalı ve inovatif çözümlerle yatırımcılar ve işletmeler için kalıcı değer yaratıyor, yenilikçi çözümler sunuyoruz.
+            Uluslararası standartlarda, veriye dayalı ve inovatif çözümlerle yatırımcılar ve işletmeler için kalıcı değer yaratıyor, yenilikçi çözümler sunuyorum.
           </p>
           <div className="mt-8">
             <Link href="/#hizmetlerim" className="inline-block bg-brand-blue text-white font-bold text-lg px-8 py-4 rounded-lg shadow-lg hover:opacity-90 transition-opacity duration-300">
@@ -33,11 +53,11 @@ export default function HomePage() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Hizmetlerim</h2>
             <p className="text-gray-600 mt-4">Şirketlerin ve yatırımcıların hedeflerine ulaşmasını sağlayacak, değer odaklı profesyonel hizmetler.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-             <ServiceCard link="/hizmetlerim" icon={<IconBusinessDev />} title="İş Geliştirme" description="Yeni pazarlar keşfederek, stratejik ortaklıklar kurarak ve satış kanallarınızı optimize ederek gelirinizi artırın."/>
-             <ServiceCard link="/hizmetlerim" icon={<IconStrategy />} title="Strateji Geliştirme" description="Pazar analizi, rekabet değerlendirmesi ve uzun vadeli yol haritaları ile sürdürülebilir bir gelecek inşa edin."/>
-             <ServiceCard link="/hizmetlerim" icon={<IconRealEstate />} title="Gayrimenkul Geliştirme" description="Arsa analizinden proje tamamlanmasına kadar tüm gayrimenkul geliştirme süreçlerinde size yol gösteriyoruz."/>
-             <ServiceCard link="/hizmetlerim" icon={<IconSourcing />} title="Yatırım Amaçlı Mülk Edinimi" description="Yüksek getiri potansiyeline sahip, piyasa dışı veya özel gayrimenkul fırsatlarını sizin için buluyor ve analiz ediyoruz."/>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto" onClick={onServiceGridClick}>
+              <ServiceCard link="/hizmetlerim#strateji-gelistirme" icon={<IconStrategy />} title="Strateji Geliştirme" description="Pazar analizi, rekabet değerlendirmesi ve uzun vadeli yol haritaları ile sürdürülebilir bir gelecek inşa edin."/>
+             <ServiceCard link="/hizmetlerim#is-gelistirme" icon={<IconBusinessDev />} title="İş Geliştirme" description="Yeni pazarlar keşfederek, stratejik ortaklıklar kurarak ve satış kanallarınızı optimize ederek gelirlerinizi artırın."/>
+             <ServiceCard link="/hizmetlerim#gayrimenkul-gelistirme" icon={<IconRealEstate />} title="Gayrimenkul Geliştirme" description="Taşınmazın analizinden proje safhası tamamlanana kadar tüm gayrimenkul geliştirme süreçlerinde size yol gösteriyorum."/>
+             <ServiceCard link="/hizmetlerim#yatirim-amacli-mulk-edinimi" icon={<IconSourcing />} title="Yatırım Amaçlı Mülk Edinimi" description="Yüksek getiri potansiyeline sahip, piyasa dışı veya özel gayrimenkul fırsatlarını sizin için buluyor ve analiz ediyorum."/>
           </div>
         </div>
       </section>

@@ -3,15 +3,16 @@
 
 import { useState, useMemo } from 'react';
 
-export default function WhatIfPage() {
-  const [amount, setAmount] = useState(1000000);
+export default function WhatIfPage() { 
+  // amount string tutulur; kullanıcı tamamen silebilsin
+  const [amount, setAmount] = useState("1000000");
   const [date, setDate] = useState('2020-01');
   const [investmentType, setInvestmentType] = useState('kfe');
   const [result, setResult] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
 
   const dateOptions = useMemo(() => {
-    const options = [];
+    const options = []; 
     const today = new Date();
     // Verilerin yayınlanma gecikmesini hesaba katmak için 1 ay geriden başlatalım
     today.setMonth(today.getMonth() - 1); 
@@ -72,8 +73,10 @@ export default function WhatIfPage() {
         throw new Error("Geçmiş veya güncel fiyat verisi alınamadı.");
       }
       
-      // ... (hesaplama kısmı aynı)
-      const investedAmount = parseFloat(amount);
+      const investedAmount = parseFloat(amount || '');
+      if (!amount.trim() || isNaN(investedAmount) || investedAmount <= 0) {
+        throw new Error('Lütfen geçerli bir yatırım tutarı giriniz.');
+      }
       const unitsBought = investedAmount / pastPrice;
       const currentValue = unitsBought * currentPrice;
       const profit = currentValue - investedAmount;
@@ -116,7 +119,14 @@ export default function WhatIfPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-end">
             <div>
               <label className="block text-gray-700 font-bold mb-2">Yatırım Tutarı (TL)</label>
-              <input type="number" value={amount} onChange={(e) => setAmount(Number(e.target.value))} className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-blue" />
+              <input
+                type="number"
+                inputMode="numeric"
+                value={amount}
+                onChange={(e) => setAmount(e.target.value)}
+                placeholder="Tutar"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-blue"
+              />
             </div>
             <div>
               <label className="block text-gray-700 font-bold mb-2">Yatırım Türü</label>
@@ -175,7 +185,7 @@ export default function WhatIfPage() {
 
               <h4 className="text-lg font-bold text-gray-800 text-center mb-3">Hesaplama Detayları</h4>
               <p className="text-gray-600 text-sm text-center">
-                Bu hesaplama, seçtiğiniz <strong>{result.startDate}</strong> tarihinde 1 birim <strong>{result.assetName}</strong> fiyatının yaklaşık <strong>{result.startPrice} TL</strong> olduğu varsayımına dayanmaktadır. Bu fiyattan <strong>{result.investedAmount} TL</strong> ile yaklaşık <strong>{result.unitsBought} birim {result.assetName}</strong> alabilirdiniz. Bugün 1 birim <strong>{result.assetName}</strong> fiyatının yaklaşık <strong>{result.endPrice} TL</strong> olduğu varsayıldığında, bu yatırımın bugünkü değeri hesaplanmıştır.
+                Seçtiğiniz <strong>{result.startDate}</strong> tarihinde 1 birim <strong>{result.assetName}</strong> fiyatı yaklaşık <strong>{result.startPrice} TL</strong> idi. Bu fiyattan <strong>{result.investedAmount} TL</strong> ile yaklaşık <strong>{result.unitsBought} birim {result.assetName}</strong> alınabilirdi. Bugünkü yaklaşık fiyat <strong>{result.endPrice} TL</strong> olduğundan yatırımın bugünkü değeri hesaplanmıştır.
               </p>
               <p className="text-gray-500 text-xs text-center mt-6 italic">
                 Tüm veriler Türkiye Cumhuriyet Merkez Bankası (TCMB) Elektronik Veri Dağıtım Sistemi (EVDS) üzerinden alınmaktadır. Bu hesaplama bilgilendirme amaçlı olup yatırım tavsiyesi niteliği taşımaz.
