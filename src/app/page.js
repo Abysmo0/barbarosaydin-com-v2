@@ -45,7 +45,7 @@ export default function HomePage() {
       <section className="bg-fenerbahce-navy">
           <div className="container mx-auto px-6 py-20 text-center">
               <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-                  Güvenilir Stratejiler İçin İlk Adımı Atın
+                  Güvenilir Stratejiler için İlk Adımı Atın
               </h2>
               <p className="mt-4 text-lg text-gray-300">
                   Hedeflerinizi konuşmak, projelerinizi değerlendirmek ve yol haritasını birlikte oluşturmak için bir görüşme planlayalım.
