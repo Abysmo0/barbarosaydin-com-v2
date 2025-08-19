@@ -32,12 +32,17 @@ export default function WhatIfPage() {
   }, []);
 
   const handleCalculate = async () => {
+    // Erken doğrulama: boş, 0 veya geçersiz tutar
+    const investedAmount = parseFloat(amount || '');
+    if (!amount.trim() || isNaN(investedAmount) || investedAmount <= 0) {
+      setResult({ error: 'Bir yatırım tutarı girmelisiniz!' });
+      return;
+    }
+
     setIsLoading(true);
     setResult(null);
-    let pastPrice = null;
-    let currentPrice = null;
-    
-    const isLocalAsset = ['gumus', 'xu030', 'xu100'].includes(investmentType);
+  let pastPrice = null;
+  let currentPrice = null;
 
     try {
       const fetchPrice = async (assetToFetch, dateString = null, isCurrent = false) => {
@@ -48,40 +53,26 @@ export default function WhatIfPage() {
           body: JSON.stringify(body),
         });
         if (!response.ok) {
-            const errorData = await response.json().catch(() => ({}));
-            throw new Error(errorData.error || `API hatası: ${response.statusText}`);
+          const errorData = await response.json().catch(() => ({}));
+          throw new Error(errorData.error || `API hatası: ${response.statusText}`);
         }
         const data = await response.json();
         return data.price;
       };
 
-      if (isLocalAsset && typeof localData !== 'undefined' && localData[investmentType]) {
-        const assetData = localData[investmentType];
-        const entries = Object.entries(assetData).filter(([k]) => k <= date);
-        if (entries.length === 0) throw new Error('Geçmiş fiyat bulunamadı (yerel veri).');
-        const lastEntry = entries.reduce((prev, curr) => (curr[0] > prev[0] ? curr : prev), entries[0]);
-        pastPrice = Number(lastEntry[1]);
-        const keys = Object.keys(assetData);
-        currentPrice = Number(assetData[keys[keys.length - 1]]);
-      } else {
-        // fallback to API for either non-local assets or when localData is not available
-        pastPrice = await fetchPrice(investmentType, date, false);
-        currentPrice = await fetchPrice(investmentType, null, true);
-      }
+  // Farklı yerel veri setleri artık kullanılmadığından doğrudan API'den çek
+  pastPrice = await fetchPrice(investmentType, date, false);
+  currentPrice = await fetchPrice(investmentType, null, true);
 
       if (!pastPrice || !currentPrice) {
-        throw new Error("Geçmiş veya güncel fiyat verisi alınamadı.");
+        throw new Error('Geçmiş veya güncel fiyat verisi alınamadı.');
       }
-      
-      const investedAmount = parseFloat(amount || '');
-      if (!amount.trim() || isNaN(investedAmount) || investedAmount <= 0) {
-        throw new Error('Lütfen geçerli bir yatırım tutarı giriniz.');
-      }
+
       const unitsBought = investedAmount / pastPrice;
       const currentValue = unitsBought * currentPrice;
       const profit = currentValue - investedAmount;
       const percentageChange = (profit / investedAmount) * 100;
-  const friendlyAssetNames = {kfe: "Konut Fiyat Endeksi", altin: "Altın", dolar: "Dolar", euro: "Euro"};
+      const friendlyAssetNames = { kfe: 'Konut Fiyat Endeksi', altin: 'Altın', dolar: 'Dolar', euro: 'Euro' };
       setResult({
         investedAmount: investedAmount.toLocaleString('tr-TR'),
         investedAmountRaw: investedAmount,
@@ -98,10 +89,9 @@ export default function WhatIfPage() {
         unitsBought: unitsBought.toLocaleString('tr-TR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
         unitsBoughtRaw: unitsBought,
       });
-
     } catch (error) {
-      console.error("Hesaplama hatası:", error);
-      setResult({ error: "Veri alınamadı. Lütfen daha eski bir tarih deneyin veya daha sonra tekrar test edin." });
+      console.error('Hesaplama hatası:', error);
+      setResult({ error: 'Veri alınamadı. Lütfen daha eski bir tarih deneyin veya daha sonra tekrar test edin.' });
     } finally {
       setIsLoading(false);
     }
