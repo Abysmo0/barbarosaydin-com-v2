@@ -32,8 +32,9 @@ export default function BlogPostPage({ params }) {
   return (
     <main className="prose mx-auto px-4 py-8">
       <h1>{post.title}</h1>
-      <p><em>Güncelleme: {post.updatedAt}</em></p>
-  {post.html ? <div dangerouslySetInnerHTML={{ __html: post.html }} /> : <p>{post.excerpt}</p>}
+      {/* Bu satır düzeltildi. `Date` nesnesi, bir string'e çevrildi. */}
+      <p><em>Güncelleme: {new Date(post.updatedAt).toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' })}</em></p>
+      {post.html ? <div dangerouslySetInnerHTML={{ __html: post.html }} /> : <p>{post.excerpt}</p>}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
     </main>
