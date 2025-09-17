@@ -13,14 +13,14 @@ export default function WhatIfPage() {
   // amount string tutulur; kullanıcı tamamen silebilsin
   const [amount, setAmount] = useState("1000000");
     // --- GÜNCELLEME: Sayfa ilk açıldığında Ocak 2020 seçili olacak ---
-    const [selectedYear, setSelectedYear] = useState(2020);
+    const [selectedYear, setSelectedYear] = useState(2010);
     const [selectedMonth, setSelectedMonth] = useState(1); // 1 = Ocak
     const [showYearList, setShowYearList] = useState(false);
     const [showMonthList, setShowMonthList] = useState(false);
     const months = [
       'Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'
     ];
-  const [investmentType, setInvestmentType] = useState('gold'); // Default olarak Altın seçili
+  const [investmentType, setInvestmentType] = useState('bist100'); // Default olarak BIST 100 seçili
   const [resultPast, setResultPast] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
 
