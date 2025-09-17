@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-800 text-white p-4">
       <div className="container mx-auto text-center">
-        <p>&copy; {currentYear} Barbaros Aydın. Tüm hakları saklıdır.</p>
+        <p>&copy; {currentYear} Barbaros AYDIN. Tüm hakları saklıdır.</p>
       </div>
     </footer>
   )
