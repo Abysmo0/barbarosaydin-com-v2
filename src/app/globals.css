@@ -21,3 +21,21 @@ html {
   width: 2rem;
   height: 2rem;
 }
+
+/* Sadece ekran genişliği 768px'den (tablet/telefon) küçük olduğunda çalışır */
+@media (max-width: 768px) {
+  
+  /* Menüdeki TÜM seçeneklerin yazısını biraz küçült */
+  select option {
+    font-size: 0.9rem; /* Yaklaşık %10 daha küçük */
+  }
+
+  /* Menüdeki BAŞLIKLARI (Döviz, Emtia vb.) ayrıca stilize et */
+  select optgroup {
+    font-size: 0.95rem;  /* Başlıklar bir tık daha belirgin olsun */
+    font-weight: 700;    /* Yazıyı kalın yap (DOĞRU) */
+    color: #111827;      /* Yazıyı koyu gri yap (DOĞRU) */
+    font-style: normal;  /* Eğik stili iptal et (DÜZELTİLDİ) */
+  }
+
+}
