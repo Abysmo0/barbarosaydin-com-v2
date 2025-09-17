@@ -21,3 +21,10 @@ html {
   width: 2rem;
   height: 2rem;
 }
+
+/* Select menüsü içindeki grup başlıklarını stilize et */
+select optgroup {
+  font-weight: 700; /* Kalın yazı */
+  color: #111827;   /* Koyu gri renk */
+  font-style: normal; /* Eğik yazıyı iptal et */
+}
