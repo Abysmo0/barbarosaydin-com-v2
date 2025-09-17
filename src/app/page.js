@@ -54,10 +54,10 @@ export default function HomePage() {
             <p className="text-gray-600 mt-4">Şirketlerin ve yatırımcıların hedeflerine ulaşmasını sağlayacak, değer odaklı profesyonel hizmetler.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto" onClick={onServiceGridClick}>
-              <ServiceCard link="/hizmetlerim#strateji-gelistirme" icon={<IconStrategy />} title="Strateji Geliştirme" description="Pazar analizi, rekabet değerlendirmesi ve uzun vadeli yol haritaları ile sürdürülebilir bir gelecek inşa edin."/>
-             <ServiceCard link="/hizmetlerim#is-gelistirme" icon={<IconBusinessDev />} title="İş Geliştirme" description="Yeni pazarlar keşfederek, stratejik ortaklıklar kurarak ve satış kanallarınızı optimize ederek gelirlerinizi artırın."/>
-             <ServiceCard link="/hizmetlerim#gayrimenkul-gelistirme" icon={<IconRealEstate />} title="Gayrimenkul Geliştirme" description="Taşınmazın analizinden proje safhası tamamlanana kadar tüm gayrimenkul geliştirme süreçlerinde size yol gösteriyorum."/>
-             <ServiceCard link="/hizmetlerim#yatirim-amacli-mulk-edinimi" icon={<IconSourcing />} title="Yatırım Amaçlı Mülk Edinimi" description="Yüksek getiri potansiyeline sahip, piyasa dışı veya özel gayrimenkul fırsatlarını sizin için buluyor ve analiz ediyorum."/>
+              <ServiceCard link="/hizmetlerim#strateji-gelistirme" icon={<IconStrategy />} title="Strateji Geliştirme" description="Pazar analizi, rekabet değerlendirmesi ve uzun vadeli yol haritaları ile sürdürülebilir bir gelecek inşa etmeniz için sizinle beraber çalışıyorum."/>
+             <ServiceCard link="/hizmetlerim#is-gelistirme" icon={<IconBusinessDev />} title="İş Geliştirme" description="Yeni pazarlar keşfederek, stratejik ortaklıklar kurarak ve satış kanallarınızı optimize ederek gelirlerinizi artırmanıza yardımcı oluyorum."/>
+             <ServiceCard link="/hizmetlerim#gayrimenkul-gelistirme" icon={<IconRealEstate />} title="Gayrimenkul Geliştirme" description="Taşınmazın analizinden proje safhası tamamlanana kadar tüm gayrimenkul geliştirme süreçlerinde aktif rol alıyorum."/>
+             <ServiceCard link="/hizmetlerim#yatirim-amacli-mulk-edinimi" icon={<IconSourcing />} title="Gayrimenkul Yatırım Değerlemesi" description="Yüksek getiri potansiyeline sahip gayrimenkul yatırım fırsatlarını sizin için inceleyerek yatırım kararı almanıza katkı sağlıyorum."/>
           </div>
         </div>
       </section>
@@ -68,7 +68,7 @@ export default function HomePage() {
                   Güvenilir Stratejiler için İlk Adımı Atın
               </h2>
               <p className="mt-4 text-lg text-gray-300">
-                  Hedeflerinizi konuşmak, projelerinizi değerlendirmek ve yol haritasını birlikte oluşturmak için bir görüşme planlayalım.
+                  Hedeflerinizi konuşmak, projelerinizi değerlendirmek ve yol haritasını oluşturmak için bir görüşme planlayalım.
               </p>
               <div className="mt-8">
                   <Link href="/iletisim" className="inline-block bg-white text-fenerbahce-navy font-bold text-lg px-8 py-4 rounded-lg shadow-lg hover:bg-gray-100 transition-colors duration-300">

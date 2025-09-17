@@ -111,7 +111,9 @@ export default function ContactPage() {
                 <div className="ml-4">
                   <h3 className="text-lg font-bold text-gray-900">Adres</h3>
                   <p className="text-gray-600">
-                    Milleon Ltd. <br />
+                    Barbaros AYDIN
+                    <br />
+                    (Milleon Ltd.) <br />
                     Unit 501, Leroy House, <br />
                     434-436 Essex Road, London, <br />
                     England, N1 3QP

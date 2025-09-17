@@ -67,7 +67,7 @@ export default function ServicesPage() {
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Strateji Geliştirme</h3>
               <p className="text-gray-600 text-lg mb-6">
-                Hızla değişen piyasa koşullarında doğru stratejiyi belirlemek, sürdürülebilir başarı için kritik bir unsur haline gelmiştir. Kapsamlı pazar analizleri, rekabet değerlendirmeleri ve trend öngörüleri doğrultusunda hazırlanan stratejik yol haritaları, kurumların geleceğe hazırlıklı olmasını sağlar. İş dünyasında kalıcı değerler yaratmak hedefli strateji geliştirme süreçlerinde, yalnızca mevcut hedeflere ulaşmak için değil, değişen koşullara uyum sağlayabilmek için de esnek modeller tasarlanmalıdır.
+                Hızla değişen piyasa koşullarında doğru stratejiyi belirlemek, sürdürülebilir başarı için kritik bir unsur haline gelmiştir. Kapsamlı pazar analizleri, rekabet değerlendirmeleri ve trend öngörüleri doğrultusunda hazırlanan stratejik yol haritaları, kişilerin ve kurumların geleceğe hazırlıklı olmasını sağlar. Hedefi iş dünyasında kalıcı değerler yaratmak olan strateji geliştirme süreçlerinde, yalnızca mevcut hedeflere ulaşmak için değil, değişen koşullara uyum sağlayabilmek için de esnek modeller tasarlanmalıdır. Farklı sektörlerde edindiğim deneyimlerle, işletmelerin ve yatırımcıların uzun vadeli başarılarını güvence altına alacak stratejiler geliştirmelerine destek oluyorum.
               </p>
               <a href="/iletisim" className="inline-block bg-brand-blue text-white font-semibold px-6 py-2 rounded-md hover:opacity-90 transition-opacity duration-300">
                 Hizmet Al
@@ -83,7 +83,7 @@ export default function ServicesPage() {
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-3">İş Geliştirme</h3>
               <p className="text-gray-600 text-lg mb-6">
-                İş geliştirme sürecinde yalnızca yeni satış kanallarının açılması değil, aynı zamanda stratejik ortaklıkların kurulması, operasyonel verimliliğin artırılması ve müşteri ilişkilerinin güçlendirilmesi ön planda tutulur. Bu sayede, kurumların mevcut kaynaklarını en etkin şekilde kullanarak gelirlerini artırmaları ve uzun vadede rekabet avantaj elde etmelerini hedeflenmelidir. Bu bağlamda ulusal ve uluslararası pazarlarda edindiğim deneyimlerle, şirketlerin yeni fırsatlar keşfetmesine ve sürdürülebilir büyüme stratejileri oluşturmasına destek veriyorum. 
+                İş geliştirme sürecinde yalnızca yeni satış kanallarının açılması değil, aynı zamanda stratejik ortaklıkların kurulması, operasyonel verimliliğin artırılması ve müşteri ilişkilerinin güçlendirilmesi ön planda tutulur. Bu sayede, kurumların mevcut kaynaklarını en etkin şekilde kullanarak gelirlerini artırmaları ve uzun vadede rekabet avantajı elde etmelerini hedeflenmelidir. Bu bağlamda ulusal ve uluslararası pazarlarda edindiğim deneyimlerle, şirketlerin yeni fırsatlar keşfetmesine ve sürdürülebilir büyüme stratejileri oluşturmasına destek veriyorum. 
               </p>
               <a href="/iletisim" className="inline-block bg-brand-blue text-white font-semibold px-6 py-2 rounded-md hover:opacity-90 transition-opacity duration-300">
                 Hizmet Al
@@ -113,9 +113,9 @@ export default function ServicesPage() {
               <IconSourcing />
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">Yatırım Amaçlı Mülk Edinimi</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">Gayrimenkul Yatırım Değerlemesi</h3>
               <p className="text-gray-600 text-lg mb-6">
-                Gayrimenkul, hem sermaye değer artışı hem de düzenli gelir akışı sağlayabilen güçlü bir yatırım aracıdır. Bu alanda, yüksek getiri potansiyeline sahip, piyasaya açık veya kapalı özel fırsatları belirleyerek yatırımcıların doğru kararlar almasına yardımcı oluyorum. Türkiye ve İngiltere’deki piyasa dinamiklerini yakından takip ederek, yatırımcıların portföylerini çeşitlendirmelerine, risklerini yönetmelerine ve uzun vadeli kazançlarını maksimize etmelerine yönelik profesyonel analizler sunuyorum.
+                Gayrimenkul, hem sermaye değer artışı hem de düzenli gelir akışı sağlayabilen güçlü bir yatırım aracıdır. Bu alanda, yüksek getiri potansiyeline sahip, piyasaya açık ya da kapalı olarak sunulan özel fırsatlar için yaptığım analiz ve saha çalışmaları ile yatırımcıların doğru kararlar almasına yardımcı oluyorum. Türkiye ve İngiltere’deki piyasa dinamiklerini yakından takip ederek, yatırımcıların portföylerini çeşitlendirmelerine, risklerini yönetmelerine ve uzun vadeli kazançlarını maksimize etmelerine yönelik değerleme danışmanlığı hizmeti veriyorum.
               </p>
               <a href="/iletisim" className="inline-block bg-brand-blue text-white font-semibold px-6 py-2 rounded-md hover:opacity-90 transition-opacity duration-300">
                 Hizmet Al
