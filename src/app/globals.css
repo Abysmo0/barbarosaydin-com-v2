@@ -22,9 +22,20 @@ html {
   height: 2rem;
 }
 
-/* Select menüsü içindeki grup başlıklarını stilize et */
-select optgroup {
-  font-weight: 700; /* Kalın yazı */
-  color: #111827;   /* Koyu gri renk */
-  font-style: normal; /* Eğik yazıyı iptal et */
+/* Sadece ekran genişliği 768px'den (tablet/telefon) küçük olduğunda çalışır */
+@media (max-width: 768px) {
+  
+  /* Menüdeki TÜM seçeneklerin yazısını biraz küçült */
+  select option {
+    font-size: 0.9rem; /* Yaklaşık %10 daha küçük */
+  }
+
+  /* Menüdeki BAŞLIKLARI (Döviz, Emtia vb.) ayrıca stilize et */
+  select optgroup {
+    font-size: 0.95rem;  /* Başlıklar bir tık daha belirgin olsun */
+    font-weight: 700;    /* Yazıyı kalın yap (DOĞRU) */
+    color: #111827;      /* Yazıyı koyu gri yap (DOĞRU) */
+    font-style: normal;  /* Eğik stili iptal et (DÜZELTİLDİ) */
+  }
+
 }
