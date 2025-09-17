@@ -835,7 +835,7 @@ export default function WhatIfPage() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">Yatırım Sihirbazı</h1>
-          <p className="text-lg text-gray-600 mt-4">Geçmişte, belirli bir tarihte eğer &quot;o yatırımı&quot; yapmış olsaydınız bugünkü değeri ne olurdu?<br />Cevabı net olarak bilemeseniz bile fikir sahibi olabilirsiniz.</p>
+          <p className="text-lg text-gray-600 mt-4">Geçmişte belirli bir tarihte eğer &quot;o yatırımı&quot; yapmış olsaydınız, bugünkü değeri ne olurdu?<br />Bu sorunun kesin cevabını bilmesek bile, piyasa verilerine dayanarak bir fikir edinebiliriz.</p>
         </div>
 
         <div className="max-w-2xl mx-auto">
