@@ -855,7 +855,7 @@ export default function WhatIfPage() {
 
               <div>
                 <label className="block text-gray-700 font-bold mb-2">Yatırım Türü</label>
-                <select value={investmentType} onChange={(e) => setInvestmentType(e.target.value)} className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-blue">
+                <select value={investmentType} onChange={(e) => setInvestmentType(e.target.value)} className="w-max w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-blue">
                   <optgroup label="Döviz">
                     <option value="dolar">Dolar (USD/TRY)</option>
                     <option value="euro">Euro (EUR/TRY)</option>
