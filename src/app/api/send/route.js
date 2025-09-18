@@ -12,7 +12,7 @@ export async function POST(request) {
 
     // E-postayı gönderiyoruz
     const { data, error } = await resend.emails.send({
-      from: 'İletişim Formu <no-reply@barbarosaydin.com>', // Bu e-postanın alan adınızla aynı olması GEREKİR
+      from: 'İletişim Formu <noreply@barbarosaydin.com>', // Bu e-postanın alan adınızla aynı olması GEREKİR
       to: ['contact@barbarosaydin.com'], // E-postanın geleceği adres
       subject: `Yeni Form Mesajı: ${subject}`,
       reply_to: email, // E-postayı yanıtladığınızda doğrudan kullanıcıya gitmesini sağlar
