@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "title": "Barbaros AYDIN - Real Estate Strategy Advisor",
+    "description": "Real estate development, investment valuation, and strategic advisory services in Turkish and UK markets."
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "wizard": "Investment Wizard",
+    "about": "About Me",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Strategy, Investment, and Development Advisory",
+      "description": "I create lasting value and provide innovative solutions for investors and businesses through data-driven approaches at international standards.",
+      "cta": "Get Started"
+    },
+    "servicesSection": {
+      "title": "My Services",
+      "subtitle": "Value-oriented professional services designed to help companies and investors achieve their goals.",
+      "cards": {
+        "strategy": {
+          "title": "Strategy Development",
+          "desc": "I work with you to build a sustainable future through market analysis, competitive assessment, and long-term roadmaps."
+        },
+        "businessDev": {
+          "title": "Business Development",
+          "desc": "I help increase your revenue by exploring new markets, establishing strategic partnerships, and optimizing your sales channels."
+        },
+        "realEstate": {
+          "title": "Real Estate Development",
+          "desc": "I take an active role in all real estate development processes, from property analysis to the completion of the project phase."
+        },
+        "investment": {
+          "title": "Real Estate Investment Valuation",
+          "desc": "I contribute to your investment decisions by analyzing high-yield real estate investment opportunities for you."
+        }
+      }
+    },
+    "bottomCta": {
+      "title": "Take the First Step for Reliable Strategies",
+      "desc": "Let's schedule a meeting to discuss your goals, evaluate your projects, and create a roadmap.",
+      "button": "Contact Me"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "follow": "Let's stay in touch",
+    "p1": "I have **over 15 years of experience** focused on the Turkish and UK markets in business development, real estate development, and investment. With my academic background in Urban Planning, Urban Design, and Business Administration, I specialize in strategic business development, valuation, and creating sustainable real estate solutions. My interdisciplinary approach allows me to add value through financial analysis, project management, and investment optimization while developing conceptual visions for projects.",
+    "p2": "Throughout my career, **I have designed processes compliant with international standards.** I have taken active responsibility in all stages of large-scale real estate projects, from land selection to concept design, feasibility analysis to sales and marketing strategies. I founded a valuation company fully compliant with Capital Markets Board regulations and provided valuation services to banks and institutional investors. Through board-level decisions, I increased portfolio profitability, minimized risks, and ensured long-term value creation.",
+    "p3": "Today, I combine my experience in Turkey's dynamic real estate environment with the institutional investment ecosystem of the UK to produce reliable solutions for investors across different geographies. Placing **ESG criteria and sustainability** principles at the center of my strategies, I work towards realizing projects with high energy efficiency and environmental awareness.",
+    "p4": "My past senior roles, entrepreneurial experiences, and consultancy activities have enabled me to build strong expertise at both strategic and operational levels in the real estate sector. Using international standards, ethical principles, and data-driven approaches like PropTech and digital valuation models, I ensure transparency and predictability in investment decisions. Additionally, as a reflection of my social responsibility, I support projects that bring together **entrepreneurship**, innovative business models, and volunteering through the [link]milleon.org[/link] **platform I founded**.",
+    "organizations": {
+      "title": "Memberships & Affiliations",
+      "items": [
+        {
+          "name": "The Turkish Association of Appraisers",
+          "date": "Apr 2014 – Present",
+          "info": "Licence No: 402653"
+        },
+        {
+          "name": "UCTEA Chamber of City Planners",
+          "date": "Oct 2009 – Present",
+          "info": "Membership No: 4604"
+        }
+      ]
+    }
+  },
+  "services": {
+    "title": "My Services",
+    "subtitle": "Professional solutions to take your projects and investments to the next level.",
+    "button": "Inquire",
+    "items": {
+      "strategy": {
+        "title": "Strategy Development",
+        "desc": "Determining the right strategy in rapidly changing market conditions is critical for sustainable success. Strategic roadmaps prepared through comprehensive market analysis, competitive assessments, and trend forecasts ensure that individuals and institutions are prepared for the future. In strategy development processes aimed at creating lasting value in the business world, flexible models must be designed not only to achieve existing goals but also to adapt to changing conditions. With the experience I have gained in different sectors, I support businesses and investors in developing strategies that will secure their long-term success."
+      },
+      "business": {
+        "title": "Business Development",
+        "desc": "In the business development process, prioritized are not only opening new sales channels but also establishing strategic partnerships, increasing operational efficiency, and strengthening customer relationships. In this way, institutions should aim to increase their revenues and gain a competitive advantage in the long term by using their existing resources most effectively. In this context, with the experience I have gained in national and international markets, I support companies in discovering new opportunities and creating sustainable growth strategies."
+      },
+      "realestate": {
+        "title": "Real Estate Development",
+        "desc": "The success of real estate projects is possible by managing the entire process, from correct property selection to the completion of development projects, with a professional perspective. Thus, real estate solutions that generate high added value for investors and users can be developed. Thanks to my background in architecture and urban planning, I offer comprehensive consultancy on concept development, feasibility studies, investment analysis, and project management."
+      },
+      "investment": {
+        "title": "Real Estate Investment Valuation",
+        "desc": "Real estate is a powerful investment vehicle that can provide both capital appreciation and regular income flow. In this field, I help investors make the right decisions through the analysis and field studies I conduct for special opportunities offered publicly or privately with high return potential. By closely monitoring market dynamics in Turkey and the UK, I provide valuation consultancy services aimed at diversifying investors' portfolios, managing their risks, and maximizing their long-term gains."
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "You can reach me by filling out the form below or through other channels.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred. Please try again later."
+    },
+    "info": {
+      "meeting": "Schedule a Meeting",
+      "meetingLink": "Book an online meeting",
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "address": "Address"
+    }
+  },
+  "wizard": {
+    "title": "Investment Wizard",
+    "subtitleLine1": "If you had made \"that investment\" at a certain date in the past, what would its value be today?",
+    "subtitleLine2": "Even if we can't know the exact answer, we can get an idea based on data.",
+    "form": {
+      "amount": "Investment Amount (TRY)",
+      "type": "Investment Type",
+      "month": "Month",
+      "year": "Year",
+      "calculate": "Calculate",
+      "calculating": "Calculating..."
+    },
+    "results": {
+      "investment": "Investment",
+      "currentValue": "Current Value",
+      "profit": "Profit / Loss",
+      "change": "Return",
+      "detailsTitle": "Details",
+      "stepsTitle": "Calculation Steps:",
+      "disclaimerLabel": "Important Note:",
+      "disclaimerText": "This calculation is for informational purposes only and does not constitute investment advice. Data is sourced from CBRT, FRED, Yahoo Finance, and Trading Economics."
+    },
+    "detailsBlock": {
+      "startDate": "Start Date",
+      "startPrice": "Start Price",
+      "currentPrice": "Current Price"
+    },
+    "errors": {
+      "invalidAmount": "You must enter an investment amount!",
+      "api": "API error",
+      "forbidden": "Data access restricted. Please try again later.",
+      "noData": "No data found for the selected month; try the previous month.",
+      "general": "Data could not be retrieved. Please try a different date."
+    },
+    "months": ["January","February","March","April","May","June","July","August","September","October","November","December"],
+    "categories": {
+      "stock": "Stock Index",
+      "currency": "Currency",
+      "commodity": "Commodity",
+      "housing": "Housing Price Index"
+    },
+    "assets": {
+      "bist100": "BIST 100 (TR, Turkey)",
+      "nasdaq100": "NASDAQ 100 (US, USA)",
+      "dax40": "DAX 40 (DE, Germany)",
+      "ftse100": "FTSE 100 (GB, UK)",
+      "ibex35": "IBEX 35 (ES, Spain)",
+      "cac40": "CAC 40 (FR, France)",
+      "ftsemib": "FTSE MIB (IT, Italy)",
+      "aex": "AEX (NL, Netherlands)",
+      "ase": "ASE (GR, Greece)",
+      "kfe": "Housing Index (TR, Turkey)",
+      "us_hpi": "Housing Index (US, USA)",
+      "de_hpi": "Housing Index (DE, Germany)",
+      "gb_hpi": "Housing Index (GB, UK)",
+      "es_hpi": "Housing Index (ES, Spain)",
+      "fr_hpi": "Housing Index (FR, France)",
+      "it_hpi": "Housing Index (IT, Italy)",
+      "nl_hpi": "Housing Index (NL, Netherlands)",
+      "gr_hpi": "Housing Index (GR, Greece)",
+      "dolar": "Dollar (USD/TRY)",
+      "euro": "Euro (EUR/TRY)",
+      "sterlin": "Sterling (GBP/TRY)",
+      "gold": "Gold (TRY/Ounce)",
+      "copper": "Copper (TRY/kg)",
+      "silver": "Silver (TRY/Ounce)"
+    },
+    "templates": {
+      "step_foreign_1": "{amount} TRY could buy {targetAmount} {currency} at a rate of {rate} {currency}/TRY on {date}.",
+      "step_foreign_2": "{units} units could be purchased from the asset at the level of {price} with {targetAmount} {currency}.",
+      "step_foreign_3": "Since the asset {direction} from {start} to {end} in the specified time period, the current value of the investment became {finalForeign} {currency}.",
+      "step_foreign_4": "With the current {currency}/TRY rate of {rate}, the present value of your investment is calculated as {finalTl} TRY.",
+      "step_simple_1": "{assetName} {direction} from {start} to {end} in the specified time period.",
+      "step_simple_2": "{amount} TRY could buy {units} units of {assetName} at the level of {price} on {date}.",
+      "step_simple_3": "Since the current level of the asset is {end}, the present value of the investment is calculated as {finalTl} TRY.",
+      "direction_up": "rose",
+      "direction_down": "fell",
+      "direction_rose": "rose",
+      "direction_fell": "fell"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Curiosities about real estate, housing price index and investment strategies.",
+    "items": [
+      {
+        "q": "What is the source of the Housing Price Index data?",
+        "a": "Data is sourced from BIS Real Residential Property Prices series via FRED (Federal Reserve Economic Data)."
+      },
+      {
+        "q": "How is monthly HPI calculated?",
+        "a": "Quarterly announced values are distributed equally to the three months of the relevant quarter, and the most recently announced quarterly data is used retrospectively."
+      },
+      {
+        "q": "Are currency and commodity prices real-time?",
+        "a": "Yahoo Finance spot prices, updated within minutes, are used as the basis; there may be delays."
+      }
+    ]
+  }
+}

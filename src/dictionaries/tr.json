@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "title": "Barbaros AYDIN - Gayrimenkul Strateji Danışmanı",
+    "description": "Türkiye ve İngiltere piyasalarında gayrimenkul geliştirme, yatırım değerleme ve stratejik danışmanlık hizmetleri."
+  },
+  "navigation": {
+    "home": "Anasayfa",
+    "services": "Hizmetlerim",
+    "wizard": "Yatırım Sihirbazı",
+    "about": "Hakkımda",
+    "contact": "İletişim"
+  },
+  "home": {
+    "hero": {
+      "title": "Strateji, Yatırım ve Geliştirme Danışmanlığı",
+      "description": "Uluslararası standartlarda, veriye dayalı ve inovatif çözümlerle yatırımcılar ve işletmeler için kalıcı değer yaratıyor, yenilikçi çözümler sunuyorum.",
+      "cta": "Hizmet Almaya Başlayın"
+    },
+    "servicesSection": {
+      "title": "Hizmetlerim",
+      "subtitle": "Şirketlerin ve yatırımcıların hedeflerine ulaşmasını sağlayacak, değer odaklı profesyonel hizmetler.",
+      "cards": {
+        "strategy": {
+          "title": "Strateji Geliştirme",
+          "desc": "Pazar analizi, rekabet değerlendirmesi ve uzun vadeli yol haritaları ile sürdürülebilir bir gelecek inşa etmeniz için sizinle beraber çalışıyorum."
+        },
+        "businessDev": {
+          "title": "İş Geliştirme",
+          "desc": "Yeni pazarlar keşfederek, stratejik ortaklıklar kurarak ve satış kanallarınızı optimize ederek gelirlerinizi artırmanıza yardımcı oluyorum."
+        },
+        "realEstate": {
+          "title": "Gayrimenkul Geliştirme",
+          "desc": "Taşınmazın analizinden proje safhası tamamlanana kadar tüm gayrimenkul geliştirme süreçlerinde aktif rol alıyorum."
+        },
+        "investment": {
+          "title": "Gayrimenkul Yatırım Değerlemesi",
+          "desc": "Yüksek getiri potansiyeline sahip gayrimenkul yatırım fırsatlarını sizin için inceleyerek yatırım kararı almanıza katkı sağlıyorum."
+        }
+      }
+    },
+    "bottomCta": {
+      "title": "Güvenilir Stratejiler için İlk Adımı Atın",
+      "desc": "Hedeflerinizi konuşmak, projelerinizi değerlendirmek ve yol haritasını oluşturmak için bir görüşme planlayalım.",
+      "button": "İletişime Geçin"
+    }
+  },
+  "about": {
+    "title": "Hakkımda",
+    "follow": "Takipte kalalım",
+    "p1": "Türkiye ve İngiltere pazarı odaklı, iş geliştirme, gayrimenkul geliştirme ve yatırımı alanlarında **15 yılı aşkın deneyime sahibim**. Şehir Planlama, Kentsel Tasarım ve İşletme disiplinlerinde edindiğim akademik birikim ile stratejik iş geliştirme, değerleme ve sürdürülebilir gayrimenkul çözümleri üretme konusunda uzmanlaşmış bulunuyorum. Disiplinler arası yaklaşımım, geliştirme süreçlerinde yer aldığım projelere finansal analiz, proje yönetimi ve yatırım optimizasyonu başlıklarında değer katmamla birlikte kavramsal vizyonlarını geliştirme imkanı da sağlamaktadır.",
+    "p2": "Kariyerim boyunca **uluslararası standartlarla uyumlu süreçler tasarladım.** Büyük ölçekli gayrimenkul projelerinin geliştirilmesinde, arsa seçiminden konsept tasarımına, fizibilite analizlerinden satış ve pazarlama stratejilerine kadar tüm aşamalarda aktif sorumluluk üstlendim. Sermaye Piyasası Mevzuatına tam uyum sağlayan bir değerleme şirketi kurdum. Bankalar ile kurumsal yatırımcılara değerleme hizmeti sundum. Yönetim kurulu seviyesinde alınan kararlarla yatırım portföylerinin kârlılığı artırdım, riskleri minimize ederek ve uzun vadeli değerler yaratılmasını sağladım.",
+    "p3": "Bugün ise Türkiye’nin dinamik ve volatil gayrimenkul ortamında elde ettiğim tecrübeler ile İngiltere’nin kurumsal yatırım ekosisteminde edindiğim deneyimleri bir araya getirerek, farklı coğrafyalarda yatırımcılara güvenilir çözümler üretmekteyim. **ESG kriterleri ve sürdürülebilirlik** ilkelerini stratejilerimin merkezine alarak, enerji verimliliği ve çevresel duyarlılığı yüksek projelerin hayata geçirilmesi için çalışmaktayım.",
+    "p4": "Geçmiş tecrübelerimde farklı kurumlarda üstlendiğim üst düzey görevler, girişimcilik deneyimleri ve danışmanlık faaliyetleri, gayrimenkul sektöründe hem stratejik hem de operasyonel seviyede güçlü bir uzmanlık oluşturmamı sağladı. Uluslararası standartlara dayalı, güvenilir ve etik değerlere bağlı çalışma prensiplerim, yeni teknolojiler, PropTech uygulamaları, dijital değerleme modelleri ve veri odaklı yaklaşımları da kullanarak yatırım kararlarında şeffaflık ve öngörülebilirlik sağlıyor, bu sayede yatırımcılar ve iş ortakları için kalıcı ve sürdürülebilir değerler yaratıyorum. Ayrıca, sosyal sorumluluk anlayışımın bir yansıması olarak **kurucusu olduğum** [link]milleon.org[/link] **platformu ile girişimcilik**, yenilikçi iş modelleri ve gönüllülüğü buluşturan projelere de destek veriyorum.",
+    "organizations": {
+      "title": "Üyelikler ve Lisanslar",
+      "items": [
+        {
+          "name": "Türkiye Değerleme Uzmanları Birliği (TDUB)",
+          "date": "Nisan 2014 – Günümüz",
+          "info": "Lisans No: 402653"
+        },
+        {
+          "name": "TMMOB Şehir Plancıları Odası",
+          "date": "Ekim 2009 – Günümüz",
+          "info": "Üyelik No: 4604"
+        }
+      ]
+    }
+  },
+  "services": {
+    "title": "Hizmetlerim",
+    "subtitle": "Projelerinizi ve yatırımlarınızı bir üst seviyeye taşımak için sunduğum profesyonel çözümler.",
+    "button": "Hizmet Al",
+    "items": {
+      "strategy": {
+        "title": "Strateji Geliştirme",
+        "desc": "Hızla değişen piyasa koşullarında doğru stratejiyi belirlemek, sürdürülebilir başarı için kritik bir unsur haline gelmiştir. Kapsamlı pazar analizleri, rekabet değerlendirmeleri ve trend öngörüleri doğrultusunda hazırlanan stratejik yol haritaları, kişilerin ve kurumların geleceğe hazırlıklı olmasını sağlar."
+      },
+      "business": {
+        "title": "İş Geliştirme",
+        "desc": "İş geliştirme sürecinde yalnızca yeni satış kanallarının açılması değil, aynı zamanda stratejik ortaklıkların kurulması, operasyonel verimliliğin artırılması ve müşteri ilişkilerinin güçlendirilmesi ön planda tutulur."
+      },
+      "realestate": {
+        "title": "Gayrimenkul Geliştirme",
+        "desc": "Gayrimenkul projelerinin başarıya ulaşması, doğru mülk seçiminden başlayarak geliştirme projelerinin tamamlanmasına kadar geçen tüm sürecin profesyonel bir bakış açısıyla yönetilmesi ile mümkündür."
+      },
+      "investment": {
+        "title": "Gayrimenkul Yatırım Değerlemesi",
+        "desc": "Gayrimenkul, hem sermaye değer artışı hem de düzenli gelir akışı sağlayabilen güçlü bir yatırım aracıdır. Bu alanda, yüksek getiri potansiyeline sahip fırsatlar için analiz ve saha çalışmaları yapıyorum."
+      }
+    }
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "subtitle": "Aşağıdaki formu doldurarak veya diğer kanallardan bana ulaşabilirsiniz.",
+    "form": {
+      "name": "Adınız Soyadınız",
+      "email": "E-posta Adresiniz",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "submit": "Mesajı Gönder",
+      "submitting": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi!",
+      "error": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+    },
+    "info": {
+      "meeting": "Toplantı Oluştur",
+      "meetingLink": "Online toplantı planlayın",
+      "email": "E-posta",
+      "whatsapp": "WhatsApp",
+      "address": "Adres"
+    }
+  },
+  "wizard": {
+    "title": "Yatırım Sihirbazı",
+    "subtitleLine1": "Geçmişte belirli bir tarihte eğer \"o yatırımı\" yapmış olsaydınız bugünkü değeri ne olurdu?",
+    "subtitleLine2": "Cevabı net olarak bilemesek de, verilere dayanarak bir fikir edinebiliriz.",
+    "form": {
+      "amount": "Yatırım Tutarı (TRY)",
+      "type": "Yatırım Türü",
+      "month": "Ay",
+      "year": "Yıl",
+      "calculate": "Hesapla",
+      "calculating": "Hesaplanıyor..."
+    },
+    "results": {
+      "investment": "Yatırım",
+      "currentValue": "Bugünkü Değer",
+      "profit": "Kazanç / Zarar",
+      "change": "Getiri",
+      "detailsTitle": "Detaylar",
+      "stepsTitle": "Hesaplama Adımları:",
+      "disclaimerLabel": "Önemli Not:",
+      "disclaimerText": "Bu hesaplama sadece bilgilendirme amaçlıdır ve yatırım tavsiyesi niteliği taşımaz. Veriler TCMB, FRED, Yahoo Finance ve Trading Economics kaynaklarından alınmaktadır."
+    },
+    "detailsBlock": {
+      "startDate": "Başlangıç Tarihi",
+      "startPrice": "Başlangıç Fiyatı",
+      "currentPrice": "Güncel Fiyat"
+    },
+    "errors": {
+      "invalidAmount": "Bir yatırım tutarı girmelisiniz!",
+      "api": "API hatası",
+      "forbidden": "Veri erişimi kısıtlı. Lütfen daha sonra deneyin.",
+      "noData": "Seçilen ay için veri bulunamadı; bir önceki ayı deneyin.",
+      "general": "Veri alınamadı. Lütfen farklı bir tarih deneyin."
+    },
+    "months": ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"],
+    "categories": {
+      "stock": "Borsa Endeksi",
+      "currency": "Döviz",
+      "commodity": "Emtia",
+      "housing": "Konut Fiyat Endeksi"
+    },
+    "assets": {
+      "bist100": "BIST 100 (TR, Türkiye)",
+      "nasdaq100": "NASDAQ 100 (US, Amerika)",
+      "dax40": "DAX 40 (DE, Almanya)",
+      "ftse100": "FTSE 100 (GB, İngiltere)",
+      "ibex35": "IBEX 35 (ES, İspanya)",
+      "cac40": "CAC 40 (FR, Fransa)",
+      "ftsemib": "FTSE MIB (IT, İtalya)",
+      "aex": "AEX (NL, Hollanda)",
+      "ase": "ASE (GR, Yunanistan)",
+      "kfe": "Konut Endeksi (TR, Türkiye)",
+      "us_hpi": "Konut Endeksi (US, Amerika)",
+      "de_hpi": "Konut Endeksi (DE, Almanya)",
+      "gb_hpi": "Konut Endeksi (GB, İngiltere)",
+      "es_hpi": "Konut Endeksi (ES, İspanya)",
+      "fr_hpi": "Konut Endeksi (FR, Fransa)",
+      "it_hpi": "Konut Endeksi (IT, İtalya)",
+      "nl_hpi": "Konut Endeksi (NL, Hollanda)",
+      "gr_hpi": "Konut Endeksi (GR, Yunanistan)",
+      "dolar": "Dolar (USD/TRY)",
+      "euro": "Euro (EUR/TRY)",
+      "sterlin": "Sterlin (GBP/TRY)",
+      "gold": "Altın (TRY/Ons)",
+      "copper": "Bakır (TRY/kg)",
+      "silver": "Gümüş (TRY/Ons)"
+    },
+    "templates": {
+      "step_foreign_1": "{amount} TRY ile {date} tarihinde {rate} {currency}/TRY kuru üzerinden {targetAmount} {currency} alınabilirdi.",
+      "step_foreign_2": "{targetAmount} {currency} ile {price} seviyesindeki varlıktan {units} birim alınabilirdi.",
+      "step_foreign_3": "Varlık, belirtilen zaman aralığında {start} seviyesinden {end} seviyesine {direction} için yatırımın güncel değeri {finalForeign} {currency} oldu.",
+      "step_foreign_4": "Güncel {currency}/TRY kuru {rate} ile yatırımınızın bugünkü değeri {finalTl} TRY olarak hesaplanmıştır.",
+      "step_simple_1": "{assetName} belirtilen zaman aralığında {start} seviyesinden {end} seviyesine {direction}.",
+      "step_simple_2": "{amount} TRY ile {date} tarihinde {price} seviyesindeki varlıktan {units} birim {assetName} alınabilirdi.",
+      "step_simple_3": "Varlığın güncel seviyesi {end} olduğundan yatırımın bugünkü değeri {finalTl} TRY olarak hesaplanmıştır.",
+      "direction_up": "yükseldiği",
+      "direction_down": "düştüğü",
+      "direction_rose": "yükselmiştir",
+      "direction_fell": "düşmüştür"
+    }
+  },
+  "faq": {
+    "title": "Sık Sorulan Sorular",
+    "description": "Gayrimenkul, konut fiyat endeksi ve yatırım stratejileri hakkında merak edilenler.",
+    "items": [
+      {
+        "q": "Konut fiyat endeksi verileri hangi kaynaktan geliyor?",
+        "a": "FRED (Federal Reserve Economic Data) üzerinden BIS Real Residential Property Prices serilerinden çekilmektedir."
+      },
+      {
+        "q": "Aylık HPI nasıl hesaplanıyor?",
+        "a": "Çeyreklik açıklanan değer ilgili çeyreğin üç ayına aynen dağıtılır ve en güncel açıklanan çeyrek veri geriye dönük kullanılır."
+      },
+      {
+        "q": "Döviz ve emtia fiyatları gerçek zamanlı mı?",
+        "a": "Dakikalar içinde güncellenen Yahoo Finance spot fiyatları baz alınır; gecikmeli olabilir."
+      }
+    ]
+  }
+}

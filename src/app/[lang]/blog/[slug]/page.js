@@ -1,6 +1,6 @@
-import { getAllPosts, getPostBySlug } from '../../../lib/blog-data';
-import { listMarkdownPosts, getMarkdownPost } from '../../../lib/markdown';
-import { getArticleSchema, getBreadcrumbSchema } from '../../../lib/schema-helpers';
+import { getAllPosts, getPostBySlug } from '@/lib/blog-data';
+import { listMarkdownPosts, getMarkdownPost } from '@/lib/markdown';
+import { getArticleSchema, getBreadcrumbSchema } from '@/lib/schema-helpers';
 
 export async function generateStaticParams() {
   const legacy = getAllPosts().map(p => ({ slug: p.slug }));
