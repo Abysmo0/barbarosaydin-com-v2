@@ -13,8 +13,8 @@ export default function InvoiceClient() {
       name: "MILLEON LTD",
       title: "",
       address: [
-        "Unit 501, Leroy House", 
-        "434-436 Essex Road, London, N1 3QP", 
+        "10 Kingsmead Court, Norman Road",
+        "Winchester, Hampshire, SO23 9PL", 
         "United Kingdom"
       ],
       email: "contact@barbarosaydin.com",
@@ -336,8 +336,8 @@ export default function InvoiceClient() {
         </div>
 
         <div className="flex space-x-4 mb-6">
-            <button onClick={() => setActiveTab('milleon')} className={`px-6 py-3 rounded-lg font-bold ${activeTab === 'milleon' ? 'bg-blue-900 text-white' : 'bg-white border'}`}>Milleon Ltd (UK)</button>
-            <button onClick={() => setActiveTab('personal')} className={`px-6 py-3 rounded-lg font-bold ${activeTab === 'personal' ? 'bg-blue-900 text-white' : 'bg-white border'}`}>Barbaros Aydın (TR)</button>
+            <button onClick={() => setActiveTab('milleon')} className={`px-6 py-3 rounded-lg font-bold ${activeTab === 'milleon' ? 'bg-blue-900 text-white' : 'bg-white border'}`}>Milleon Ltd</button>
+            <button onClick={() => setActiveTab('personal')} className={`px-6 py-3 rounded-lg font-bold ${activeTab === 'personal' ? 'bg-blue-900 text-white' : 'bg-white border'}`}>Barbaros AYDIN</button>
         </div>
 
         <div className="bg-white p-8 rounded-lg shadow-lg">

@@ -105,24 +105,24 @@ export default function ContactClient({ dict }) {
                 </div>
               </div>
 
-              {/* Adres */}
-              <div className="flex items-center">
-                <div className="flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-lg bg-gray-100 text-gray-600 group hover:text-red-500 transition-colors"><IconLocation /></div>
-                <div className="ml-4">
-                  <h3 className="text-lg font-bold text-gray-900">{dict.contact.info.address}</h3>
-                  <p className="text-gray-600">Barbaros AYDIN<br />(Milleon Ltd.) <br />Unit 501, Leroy House, <br />434-436 Essex Road, London, <br />England, N1 3QP</p>
-                </div>
-              </div>
-
             </div>
           </div>
         </div>
       </section>
 
-      {/* --- HARİTA --- */}
-      <section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.1914732077475!2d-0.08929842311917445!3d51.54638790785389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761c9b32639327%3A0x6777dea041ec9228!2sWorkspace%C2%AE%20%7C%20Leroy%20House!5e0!3m2!1str!2suk!4v1755456480703!5m2!1str!2suk" width="100%" height="450" style={{ border: 0, width: '100%', display: 'block' }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-      </section>
+      {/* Google Haritası Bölümü (Winchester, UK) */}
+<section className="w-full px-3 mt-12">
+  <iframe
+    src="https://maps.google.com/maps?q=Winchester%2C%20Hampshire%2C%20United%20Kingdom&t=&z=15&ie=UTF8&iwloc=&output=embed"
+    width="100%"
+    height="550"
+    style={{ border: 0, width: '100%', display: 'block' }}
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    className="w-full"
+  ></iframe>
+</section>
     </>
   );
 }

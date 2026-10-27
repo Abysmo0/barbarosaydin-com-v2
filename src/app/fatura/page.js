@@ -3,7 +3,7 @@ import InvoiceClient from '@/components/InvoiceClient';
 export const metadata = {
   title: 'Yönetim Paneli | Barbaros AYDIN',
   robots: {
-    index: false, // Google bu sayfayı indekslemesin
+    index: false, // Google ve arama motorları indekslemesin
     follow: false,
   },
 };

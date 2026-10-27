@@ -49,21 +49,26 @@
     "follow": "Let's stay in touch",
     "p1": "I have **over 15 years of experience** focused on the Turkish and UK markets in business development, real estate development, and investment. With my academic background in Urban Planning, Urban Design, and Business Administration, I specialize in strategic business development, valuation, and creating sustainable real estate solutions. My interdisciplinary approach allows me to add value through financial analysis, project management, and investment optimization while developing conceptual visions for projects.",
     "p2": "Throughout my career, **I have designed processes compliant with international standards.** I have taken active responsibility in all stages of large-scale real estate projects, from land selection to concept design, feasibility analysis to sales and marketing strategies. I founded a valuation company fully compliant with Capital Markets Board regulations and provided valuation services to banks and institutional investors. Through board-level decisions, I increased portfolio profitability, minimized risks, and ensured long-term value creation.",
-    "p3": "Today, I combine my experience in Turkey's dynamic real estate environment with the institutional investment ecosystem of the UK to produce reliable solutions for investors across different geographies. Placing **ESG criteria and sustainability** principles at the center of my strategies, I work towards realizing projects with high energy efficiency and environmental awareness.",
+    "p3": "Today, I combine my experience in Türkiye's dynamic real estate environment with the institutional investment ecosystem of the UK to produce reliable solutions for investors across different geographies. Placing **ESG criteria and sustainability** principles at the center of my strategies, I work towards realizing projects with high energy efficiency and environmental awareness.",
     "p4": "My past senior roles, entrepreneurial experiences, and consultancy activities have enabled me to build strong expertise at both strategic and operational levels in the real estate sector. Using international standards, ethical principles, and data-driven approaches like PropTech and digital valuation models, I ensure transparency and predictability in investment decisions. Additionally, as a reflection of my social responsibility, I support projects that bring together **entrepreneurship**, innovative business models, and volunteering through the [link]milleon.org[/link] **platform I founded**.",
     "organizations": {
       "title": "Memberships & Affiliations",
       "items": [
         {
-          "name": "The Turkish Association of Appraisers",
-          "date": "Apr 2014 – Present",
-          "info": "Licence No: 402653"
-        },
-        {
-          "name": "UCTEA Chamber of City Planners",
-          "date": "Oct 2009 – Present",
-          "info": "Membership No: 4604"
-        }
+      "name": "Association for Project Management (APM)",
+      "date": "March 2026 – Present",
+      "info": "Membership No: P0664209"
+    },
+    {
+      "name": "The Turkish Association of Appraisers (TDUB)",
+      "date": "July 2014 – Present",
+      "info": "Licence No: 402653"
+    },
+    {
+      "name": "UCTEA Chamber of City Planners (Türkiye)",
+      "date": "September 2009 – Present",
+      "info": "Membership No: 4604"
+    }
       ]
     }
   },
@@ -86,7 +91,7 @@
       },
       "investment": {
         "title": "Real Estate Investment Valuation",
-        "desc": "Real estate is a powerful investment vehicle that can provide both capital appreciation and regular income flow. In this field, I help investors make the right decisions through the analysis and field studies I conduct for special opportunities offered publicly or privately with high return potential. By closely monitoring market dynamics in Turkey and the UK, I provide valuation consultancy services aimed at diversifying investors' portfolios, managing their risks, and maximizing their long-term gains."
+        "desc": "Real estate is a powerful investment vehicle that can provide both capital appreciation and regular income flow. In this field, I help investors make the right decisions through the analysis and field studies I conduct for special opportunities offered publicly or privately with high return potential. By closely monitoring market dynamics in Türkiye and the UK, I provide valuation consultancy services aimed at diversifying investors' portfolios, managing their risks, and maximizing their long-term gains."
       }
     }
   },
@@ -153,7 +158,7 @@
       "housing": "Housing Price Index"
     },
     "assets": {
-      "bist100": "BIST 100 (TR, Turkey)",
+      "bist100": "BIST 100 (TR, Türkiye)",
       "nasdaq100": "NASDAQ 100 (US, USA)",
       "dax40": "DAX 40 (DE, Germany)",
       "ftse100": "FTSE 100 (GB, UK)",
@@ -162,7 +167,7 @@
       "ftsemib": "FTSE MIB (IT, Italy)",
       "aex": "AEX (NL, Netherlands)",
       "ase": "ASE (GR, Greece)",
-      "kfe": "Housing Index (TR, Turkey)",
+      "kfe": "Housing Index (TR, Türkiye)",
       "us_hpi": "Housing Index (US, USA)",
       "de_hpi": "Housing Index (DE, Germany)",
       "gb_hpi": "Housing Index (GB, UK)",
