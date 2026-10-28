@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import Image from 'next/image';
 import { getDictionary } from '@/get-dictionary';
 
@@ -9,12 +11,13 @@ const IconLinkedIn = () => (
 );
 
 const IconAcademia = () => (
-  <img
+  <Image
     src="https://cdn-icons-png.flaticon.com/512/4494/4494773.png"
     alt="Academia"
     width={26}
     height={26}
     className="w-6 h-6 object-contain grayscale group-hover:grayscale-0 transition duration-150"
+    unoptimized
     loading="lazy"
     decoding="async"
   />
@@ -73,12 +76,12 @@ export default async function AboutPage({ params }) {
         
         {/* Ana Sayfaya Dönüş Linki */}
         <div className="mb-10">
-          <a 
-            href="/#about" 
-            className="inline-flex items-center text-sm font-semibold text-[#0A2252] hover:underline"
-          >
-            ← Back to Overview
-          </a>
+          <Link 
+  href="/#about" 
+  className="inline-flex items-center text-sm font-semibold text-[#0A2252] hover:underline"
+>
+  ← Back to Overview
+</Link>
         </div>
 
         {/* 1. ÜST ALAN: Fotoğraf ve Biyografi (İki Sütunlu Izgara) */}

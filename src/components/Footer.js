@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 py-12">
@@ -13,15 +15,15 @@ export default function Footer() {
           Email: <a href="mailto:contact@barbarosaydin.com" className="text-white hover:underline">contact@barbarosaydin.com</a>
         </p>
         <div className="flex justify-center space-x-4 text-sm font-medium text-gray-400">
-  <a href="/#home" className="hover:text-white transition-colors">Home</a>
+  <Link href="/#home" className="hover:text-white transition-colors">Home</Link>
   <span>·</span>
-  <a href="/#expertise" className="hover:text-white transition-colors">Expertise</a>
+  <Link href="/#expertise" className="hover:text-white transition-colors">Expertise</Link>
   <span>·</span>
-  <a href="/#about" className="hover:text-white transition-colors">About</a>
+  <Link href="/#about" className="hover:text-white transition-colors">About</Link>
   <span>·</span>
-  <a href="/#contact" className="hover:text-white transition-colors">Contact</a>
+  <Link href="/#contact" className="hover:text-white transition-colors">Contact</Link>
   <span>·</span>
-  <a href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy & Terms</a>
+  <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy & Terms</Link>
 </div>
       </div>
     </footer>

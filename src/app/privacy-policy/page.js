@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function PrivacyPolicy() {
   return (
     <section className="bg-white py-20 md:py-28">
@@ -5,12 +7,12 @@ export default function PrivacyPolicy() {
         
         {/* Ana Sayfaya Dönüş Linki */}
         <div className="mb-8">
-          <a 
+          <Link 
             href="/#home" 
             className="inline-flex items-center text-sm font-semibold text-[#0A2252] hover:underline"
           >
             ← Back to Home
-          </a>
+          </Link>
         </div>
 
         <h1 className="text-3xl md:text-4xl font-bold text-[#0A2252] mb-4">
