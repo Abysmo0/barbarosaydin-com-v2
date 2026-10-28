@@ -437,7 +437,7 @@ export default function HomePage() {
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 tracking-tight">
             Have an Opportunity Worth Exploring?
           </h2>
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <p className="text-lg text-blue-100 mb-6 leading-relaxed">
               Whether you are evaluating a business opportunity, considering a property investment, planning a development or looking for a strategic perspective, I welcome conversations about projects where my experience can add value.
             </p>
